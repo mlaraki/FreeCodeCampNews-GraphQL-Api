@@ -2,8 +2,8 @@ const config = require('./config/environment');
 const { ApolloServer } = require('apollo-server-fastify');
 const { typeDefs } = require('./schemas/typeDefs');
 const { resolvers } = require('./schemas/resolvers');
-import { makeExecutableSchema } from '@graphql-tools/schema';
-import { LongResolver } from 'graphql-scalars';
+const { makeExecutableSchema } = require('@graphql-tools/schema');
+const { LongResolver } = require('graphql-scalars');
 
 const PORT = config.PORT || 9000;
 

@@ -1,37 +1,37 @@
 {
-  "name": "fastify-graphql",
-  "version": "1.0.0",
-  "description": "FCC news GraphQL api",
-  "main": "index.js",
-  "scripts": {
-    "start": "babel-node index.js",
-    "dev": "nodemon --exec babel-node index.js",
-	"test": "mocha unit-tests/*.test.js",
-	"ci": "start-server-and-test http-get://0.0.0.0:9000/ "
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/cli": "^7.10.1",
-    "@babel/core": "^7.10.2",
-    "@babel/node": "^7.10.1",
-    "@babel/preset-env": "^7.10.2",
-    "chai": "^4.2.0",
-    "mocha": "^7.2.0",
-    "nodemon": "^2.0.4",
-    "start-server-and-test": "^1.11.0",
-    "supertest": "^4.0.2"
-  },
-  "dependencies": {
-    "apollo-server-fastify": "^2.14.1",
-    "dotenv": "^8.2.0",
-    "fast-json-stringify": "^2.0.0",
-    "fastify": "^2.14.1",
-    "firebase-admin": "^8.12.1",
-    "graphql": "^15.0.0",
-    "graphql-scalars": "^1.1.5",
-    "graphql-tools": "^6.0.6",
-    "ioredis": "^4.17.3"
-  }
+	"name": "fastify-graphql",
+	"version": "1.0.0",
+	"description": "FCC news GraphQL api",
+	"main": "index.js",
+	"scripts": {
+		"start": "babel-node index.js",
+		"dev": "nodemon --exec babel-node index.js",
+		"test": "mocha unit-tests/*.test.js",
+		"ci": "start-server-and-test http-get://0.0.0.0:9000/ "
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.10.1",
+		"@babel/core": "^7.10.2",
+		"@babel/node": "^7.10.1",
+		"@babel/preset-env": "^7.10.2",
+		"chai": "^4.2.0",
+		"mocha": "^7.2.0",
+		"nodemon": "^2.0.4",
+		"start-server-and-test": "^1.11.0",
+		"supertest": "^4.0.2"
+	},
+	"dependencies": {
+		"apollo-server-fastify": "^2.14.1",
+		"dotenv": "^8.2.0",
+		"fast-json-stringify": "^2.0.0",
+		"fastify": "^2.14.1",
+		"firebase-admin": "^8.12.1",
+		"graphql": "^15.0.0",
+		"graphql-scalars": "^1.1.5",
+		"graphql-tools": "^6.0.6",
+		"ioredis": "^4.17.3"
+	}
 }
