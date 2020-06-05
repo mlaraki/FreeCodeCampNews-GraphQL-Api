@@ -1,6 +1,6 @@
 const config = require('../config/environment');
 const {redis_getArticles, redis_setArticles} = require("../redis_cache/handlers");
-import { db } from "../config/firestoreConfig";
+const { db } = require("../config/firestoreConfig");
 
 export const resolvers = {
 	Query: {
